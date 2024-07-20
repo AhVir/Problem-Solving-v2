@@ -4,8 +4,9 @@
 using namespace std;
 
 int main() {
-  string str = "tanvir";
-  int n = 6;
+  string str;
+  cin >> str;
+  int n = str.length();
 
   vector<string> strings;
 
